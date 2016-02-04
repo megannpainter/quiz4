@@ -2,17 +2,17 @@ var students = ["Joe", "Jack", "Jane", "Jill"];
 var gradeMean = [90, 68, 92, 88];
 
 
-var highestScore = 100;
+var lowestScore = 100;
 var lowestStudent;
 
 for (i=0; i < students.length; i++ ) {
-    if (gradeMean[i] <= highestScore ) {
-         gradeMean[i] = highestScore;
+    if (gradeMean[i] <= lowestScore ) {
+         gradeMean[i] = lowestScore;
          lowestStudent = i;
     }
 }
 
-    console.log("The " + students.[lowestStudent] + " has the lowest score");
+    console.log ("The " + students.[lowestStudent] + " has the lowest score");
     document.getElementById("content").innerHTML = "The " + students.[lowestStudent] + " has the lowest score";
 
 
