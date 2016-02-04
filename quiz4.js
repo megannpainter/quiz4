@@ -12,8 +12,8 @@ for (i=0; i < students.length; i++ ) {
     }
 }
 
-    console.log ("The " + students.[lowestStudent] + " has the lowest score");
-    document.getElementById("content").innerHTML = "The " + students.[lowestStudent] + " has the lowest score";
+    console.log ( students[lowestStudent] + " has the lowest score" );
+    document.getElementById("content").innerHTML = students[lowestStudent] + " has the lowest score";
 
 
 //Using the data above write a JavaScript that is linked to an html page that determines who has the lowest score.
